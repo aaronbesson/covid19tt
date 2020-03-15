@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Image, Platform, StyleSheet, Text, ScrollView, View } from 'react-native';
-
+import { Image, Platform, StyleSheet, Text, ScrollView } from 'react-native';
+import { View } from 'react-native-web'
 
 
 export default function Safety({navigation}) {

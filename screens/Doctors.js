@@ -6,14 +6,13 @@ import {
     StyleSheet,
     Text,
     TouchableOpacity,
-    View,
     Linking,
     Dimensions
  } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import axios from 'axios';
 import Modal from "react-native-modal";
-
+import { View } from 'react-native-web'
 
 
 const { width, height } = Dimensions.get('window')

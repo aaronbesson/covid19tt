@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Dimensions, Linking } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, Dimensions, Linking } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import * as WebBrowser from 'expo-web-browser';
 import { RectButton, ScrollView } from 'react-native-gesture-handler';
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import ScrollableTabView from 'react-native-scrollable-tab-view';
 import { WebView } from 'react-native-webview';
-
+import { View } from 'react-native-web'
 
 const { width, height } = Dimensions.get('window')
 

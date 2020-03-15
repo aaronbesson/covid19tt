@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { Image, Platform, StyleSheet, Text, TouchableOpacity, View, Linking, Dimensions } from 'react-native';
+import { Image, Platform, StyleSheet, Text, TouchableOpacity, Linking, Dimensions } from 'react-native';
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import Count from './Count';
 import StepModal from "react-native-step-modal";
-
+import { View } from 'react-native-web'
 
 const { width, height } = Dimensions.get('window')
 export default function HomeScreen({navigation}) {

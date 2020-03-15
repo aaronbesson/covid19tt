@@ -1,9 +1,10 @@
 import * as React from 'react';
-import { Image, Platform, StyleSheet, Text, TouchableOpacity, View, ScrollView } from 'react-native';
+import { Image, Platform, StyleSheet, Text, TouchableOpacity, ScrollView } from 'react-native';
 import { WebView } from 'react-native-webview';
 import ScrollableTabView from 'react-native-scrollable-tab-view';
 import HealthCenters from './HealthCenters';
 import Doctors from './Doctors';
+import { View } from 'react-native-web'
 
 export default function HomeScreen({navigation}) {
   return (

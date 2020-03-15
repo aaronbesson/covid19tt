@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { Image, Platform, StyleSheet, Text, TouchableOpacity, View, ScrollView } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
+import { Image, Platform, StyleSheet, Text, TouchableOpacity, ScrollView } from 'react-native';
 import { CheckBox } from 'react-native-elements';
-
+import { View } from 'react-native-web'
 
 export default class TravelLocation extends React.Component {
   state = {

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { Image, Platform, StyleSheet, Text, TouchableOpacity, View, Dimensions, Linking } from 'react-native';
+import { Image, Platform, StyleSheet, Text, TouchableOpacity, Dimensions, Linking } from 'react-native';
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-
+import { View } from 'react-native-web'
 
 const { width, height } = Dimensions.get('window')
 
