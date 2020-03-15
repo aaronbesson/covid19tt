@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Covid-19 Trinidad and Tobago",
+    "slug": "covid19tt",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "0.3",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.aaronbesson.covid19tt",
+      "buildNumber": "3"
+    },
+    "android": {
+      "versionCode": 3,
+      "package": "com.aaronbesson.covid19tt",
+      "permissions": [
+        "READ_PHONE_STATE",
+        "READ_CONTACTS",
+        "READ_LOCATION"
+      ]
+    }
+  }
+}
+
