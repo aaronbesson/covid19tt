@@ -18,7 +18,7 @@ export default class Quarantine extends React.Component {
     return (
 <View style={styles.container}>
           <Text style={{fontSize: 120}}>😷</Text>
-          <Text style={{color: 'black', fontSize: 24, textAlign: 'center'}}>You should self-quarantine for fourteen (14) days.</Text>
+          <Text style={{color: 'black', fontSize: 24, textAlign: 'center'}}>You should self-quarantine for fourteen (14) days. Get a lot of rest, take your vitamins and drink a lot of water. You should monitor your symptoms carefully and speak with a doctor if they get worse.</Text>
           <Text
             style={{
               backgroundColor: 'transparent',
@@ -28,7 +28,7 @@ export default class Quarantine extends React.Component {
               textAlign: 'center',
               marginVertical: 20
             }}>
-            Do you need to speak with a doctor?
+            Would you like to speak with a doctor?
           </Text>
 
           <View style={{flexDirection: 'row'}}>

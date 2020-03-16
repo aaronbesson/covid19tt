@@ -25,7 +25,7 @@ export default function LinksScreen() {
       <OptionButton
         icon="compass"
         label="Ministry of Health T&T Website"
-        onPress={() => WebBrowser.openBrowserAsync('http://www.health.gov.tt')}
+        onPress={() => WebBrowser.openBrowserAsync('http://www.health.gov.tt/news/')}
       />
 
       <OptionButton

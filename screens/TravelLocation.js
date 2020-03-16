@@ -133,9 +133,11 @@ export default class TravelLocation extends React.Component {
           <TouchableOpacity style={styles.no} onPress={() => this.props.navigation.navigate('Travel')}>
             <Text style={{fontSize: 24, color: 'white'}}>Reset</Text>
           </TouchableOpacity>
-            {score < 3 && <TouchableOpacity style={styles.yes} onPress={() => this.props.navigation.navigate('Quarantine')}>
+
+            {score <= 2 && <TouchableOpacity style={styles.yes} onPress={() => this.props.navigation.navigate('Quarantine')}>
             <Text style={{color: 'black',fontSize: 24}}>Next</Text>
           </TouchableOpacity>}
+
           {score >= 3 && <TouchableOpacity style={styles.yes} onPress={() => this.props.navigation.navigate('Tested')}>
             <Text style={{color: 'black',fontSize: 24}}>Next</Text>
           </TouchableOpacity>}
