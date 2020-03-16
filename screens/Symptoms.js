@@ -83,7 +83,7 @@ export default class Symptoms extends React.Component {
           checkedColor='red'
           title='Diarrhoea'
           checked={this.state.diarrhoea}
-          onPress={() => this.setState({ diarrhoea: true, diarrhoeaScore: 4 })}
+          onPress={() => this.setState({ diarrhoea: true, diarrhoeaScore: 2 })}
           />
 
           <CheckBox

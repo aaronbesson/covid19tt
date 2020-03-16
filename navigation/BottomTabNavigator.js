@@ -32,6 +32,18 @@ export default function BottomTabNavigator({ navigation, route }) {
         }}
       />
 
+
+      <BottomTab.Screen
+        name="Contacts"
+        component={Contacts}
+        options={{
+          tabBarLabel: ({ focused }) =>  <Text style={{fontSize: 13,
+            color: focused ? Colors.tabIconSelected : Colors.tabIconDefault
+          }}>Hospitals</Text>,
+          tabBarIcon: ({ focused }) => <MaterialCommunityIcons name="hospital-marker" size={28} color={focused ? Colors.tabIconSelected : Colors.tabIconDefault} style={{paddingTop: 6}} />,
+        }}
+      />
+
       <BottomTab.Screen
         name="Safety"
         component={Safety}
@@ -40,17 +52,6 @@ export default function BottomTabNavigator({ navigation, route }) {
             color: focused ? Colors.tabIconSelected : Colors.tabIconDefault
           }}>Safety Tips</Text>,
           tabBarIcon: ({ focused }) => <MaterialCommunityIcons name="hand" size={28} color={focused ? Colors.tabIconSelected : Colors.tabIconDefault} style={{paddingTop: 6}} />,
-        }}
-      />
-
-            <BottomTab.Screen
-        name="Contacts"
-        component={Contacts}
-        options={{
-          tabBarLabel: ({ focused }) =>  <Text style={{fontSize: 13,
-            color: focused ? Colors.tabIconSelected : Colors.tabIconDefault
-          }}>Hospitals</Text>,
-          tabBarIcon: ({ focused }) => <MaterialCommunityIcons name="hospital-marker" size={28} color={focused ? Colors.tabIconSelected : Colors.tabIconDefault} style={{paddingTop: 6}} />,
         }}
       />
 

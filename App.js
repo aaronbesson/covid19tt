@@ -15,9 +15,37 @@ import Quarantine from './screens/Quarantine';
 import Tested from './screens/Tested';
 import Monitor from './screens/Monitor';
 import { TransitionPresets } from '@react-navigation/stack';
+import { Notifications } from 'expo';
+import * as Permissions from 'expo-permissions';
 
+const PUSH_ENDPOINT = 'https://easy-soup.glitch.me/token';
 
 const Stack = createStackNavigator();
+
+async function registerForPushNotifications() {
+  const { status } = await Permissions.getAsync(
+    Permissions.NOTIFICATIONS
+  );
+  if (status !== 'granted') {
+    await Permissions.askAsync(Permissions.NOTIFICATIONS);
+  }
+  // Get the token that identifies this device
+  let token = await Notifications.getExpoPushTokenAsync();
+
+  // POST the token to your backend server from where you can retrieve it to send push notifications.
+  return fetch(PUSH_ENDPOINT, {
+    method: 'POST',
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      token: {
+        value: token,
+      }
+    }),
+  });
+}
 
 export default function App(props) {
   const [isLoadingComplete, setLoadingComplete] = React.useState(false);
@@ -27,6 +55,7 @@ export default function App(props) {
 
   // Load any resources or data that we need prior to rendering the app
   React.useEffect(() => {
+    registerForPushNotifications();
     async function loadResourcesAndDataAsync() {
       try {
         SplashScreen.preventAutoHide();
