@@ -28,3 +28,5 @@ expo build:android -t app-bundle
 ### Build for IOS
 
 expo build:ios
+
+https://github.com/aaronbesson/covid19tt/blob/master/example.gif
