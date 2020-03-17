@@ -18,4 +18,13 @@ You can test push notification when running on your mobile device (DO NOT USE WI
 https://expo-notifications-tool.now.sh
 
 To setup and configure your own push notifications:
+
 https://dev.to/josedonato/minimalist-approach-to-send-push-notifications-with-expo-4m7h
+
+Build for Android
+
+expo build:android -t app-bundle  
+
+Build for IOS
+
+expo build:ios
