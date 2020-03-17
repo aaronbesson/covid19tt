@@ -1,0 +1,800 @@
+[
+ {
+   "Facility": "Aranguez Health Centre",
+   "Address": "Aranguez Main Road, Aranguez",
+   "Phone": "(868)-638-2120",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Arima Health Facility",
+   "Address": "Queen Mary Avenue, Arima",
+   "Phone": "(868)-667-4714",
+   "Type": "District Health Facility",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Arouca Health Centre",
+   "Address": "Corner George Street and Golden Grove Road, Arouca",
+   "Phone": "(868)-642-1065",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Barataria Health Centre",
+   "Address": "Eighth Avenue and Seventh Street, Barataria",
+   "Phone": "(868)-638-2124/ 674-2227",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Belle Garden Health Centre",
+   "Address": "Belle Garden",
+   "Phone": "(868) 660-5830",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Bethel Health Centre",
+   "Address": "Bethel",
+   "Phone": "(868)-639-8580",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Biche Outreach Centre",
+   "Address": "Canque Village, Biche",
+   "Phone": "(868)-668-9053",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Black Rock Outreach Centre",
+   "Address": "",
+   "Phone": "",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Blanchisseuse and Brasso Seco Health Centre",
+   "Address": "Paria Main Road, Lower Village, Blanchisseuse",
+   "Phone": "(868)-669-4118",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Bloody Bay Outreach Centre",
+   "Address": "Bloody Bay",
+   "Phone": "",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Brothers Road Outreach Centre",
+   "Address": "Brothers Road, Tabaquite",
+   "Phone": "(868)-656-2547",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Buccoo Health Centre",
+   "Address": "Buccoo",
+   "Phone": "(868)-639-0750",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Canaan Health Centre",
+   "Address": "Canaan",
+   "Phone": "(868)-639-8829",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Carenage Health Centre",
+   "Address": "Constabulary Street, Carenage",
+   "Phone": "(868)-632-1860",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Castara Health Centre",
+   "Address": "Castara",
+   "Phone": "(868)-639-2194",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Caura Hospital",
+   "Address": "St Augustine",
+   "Phone": "(868)-645-4630",
+   "Type": "Hospital",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Cedros Health Centre",
+   "Address": "St. Marie Street, Bonasse",
+   "Phone": "(868)-690-1440",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Chaguanas District Health Facility",
+   "Address": "Main Road and Galt St., Chaguanas",
+   "Phone": "(868)-669-8958",
+   "Type": "District Health Facility",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Charlotteville Health Centre",
+   "Address": "Charlotteville",
+   "Phone": "(868) 660-6751; (868) 660-6055",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Chatham Health Centre",
+   "Address": "Main Road, Belle View",
+   "Phone": "",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Claxton Bay Health Centre",
+   "Address": "Southern Main Road, Claxton Bay",
+   "Phone": "(868)-659-1646",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Coryal Outreach Centre",
+   "Address": "Corner Balata Hill Road and Cumuto Main Road, Coryal",
+   "Phone": "(868)-668-8066",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Couva District Health Facility",
+   "Address": "Main Road, Couva",
+   "Phone": "(868) 636-4024, (868) 225-HEAL",
+   "Type": "District Health Facility",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Cumana Outreach Centre",
+   "Address": "Toco Main Road, Cumana Village, Cumana",
+   "Phone": "(868)-670-8250",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Cumuto Outreach Centre",
+   "Address": "Main Road, Cumuto",
+   "Phone": "(868)-643-9075",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Cunupia Health Centre",
+   "Address": "Larchu Trace, Cunupia",
+   "Phone": "(868)-665-0183",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Debe Health Centre",
+   "Address": "Wellington Road, Debe",
+   "Phone": "(868)-647-6247",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Delaford Health Centre",
+   "Address": "Delaford",
+   "Phone": "(868)-660-5566",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Diego Martin Health Centre",
+   "Address": "#2 Church Street, Diego Martin",
+   "Phone": "(868)-637-1860",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "El Socorro Health Centre",
+   "Address": "El Socorro Road, San Juan",
+   "Phone": "(868)-638-5218",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Eric Williams Medical Sciences Complex",
+   "Address": "Uriah Butler Highway, Champ Fleurs",
+   "Phone": "(868) 225-4673",
+   "Type": "Hospital",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Erin Health Centre",
+   "Address": "Main Road, Buenos Ayres",
+   "Phone": "(868)-649-8562",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Flanagin Town Health Centre",
+   "Address": "Main Rd, Flanagin Town",
+   "Phone": "(868)-636-2982",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Freeport Health Centre",
+   "Address": "St. Mary's Junction, Freeport",
+   "Phone": "(868)-673-0021",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Fyzabad Health Centre",
+   "Address": "Main Road, Fyzabad",
+   "Phone": "(868)-677-2034",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Gasparillo Health Centre",
+   "Address": "Church Street, Gasparillo",
+   "Phone": "(868)-650-1020",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "George Street Health Centre",
+   "Address": "#61-67 George Street, Port-of-Spain",
+   "Phone": "(868)-623-5155",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Gran Couva Bay Health Centre",
+   "Address": "Main Road, Gran Couva",
+   "Phone": "(868)-679-9134",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Grande Riviere Outreach Centre",
+   "Address": "Grande Riviere",
+   "Phone": "(868)-670-8264",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Granville Health Centre",
+   "Address": "Syfo Road, Granville",
+   "Phone": "(868)-648-2736",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Guapo Health Centre",
+   "Address": "Hubertson Young Street, Guapo",
+   "Phone": "(868)-648-2208",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Guayaguayare Outreach Centre",
+   "Address": "Guayaguayare Road, Guayaguayare, Trinidad",
+   "Phone": "(868)-630-8777",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Icacos Health Centre",
+   "Address": "Main Road, Icacos",
+   "Phone": "(868)-648-2724",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Indian Walk Health Centre",
+   "Address": "Petite Cafe, Moruga",
+   "Phone": "(868)-655-2478",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "L'Anse Fourmi Outreach Centre",
+   "Address": "L'Anse Fourmi",
+   "Phone": "",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "La Brea Health Centre",
+   "Address": "New Lands, La Brea",
+   "Phone": "(868)-648-7562",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "La Horquetta Health Centre",
+   "Address": "Arthur Murray Crescent, La Horquetta Phase III",
+   "Phone": "(868)-643-0911",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "La Romaine Health Centre",
+   "Address": "Zaida Lane, La Romain",
+   "Phone": "(868)-657-1673",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Las Cuevas Health Centre",
+   "Address": "Pole #9 School Road, Las Cuevas Village, Blanchisseuse",
+   "Phone": "(868)-669-6302",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Las Lomas Health Centre",
+   "Address": "Las Lomas # 1, Las Lomas",
+   "Phone": "(868)-669-9789",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Lengua Health Centre",
+   "Address": "Cipero and Papourie Roads, Lengua",
+   "Phone": "(868)-656-5280",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Les Coteaux Health Centre",
+   "Address": "Les Coteaux",
+   "Phone": "(868) 660-0069",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Macoya Health Centre",
+   "Address": "Macoya Settlement, Tunapuna",
+   "Phone": "(868)-663-4617",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Maloney Health Centre",
+   "Address": "Maloney Boulevard, Maloney Gardens",
+   "Phone": "(868)-642-1330",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Manzanilla Outreach Centre",
+   "Address": "Eastern Main Road, Manzanilla",
+   "Phone": "(868)-668-2063",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Marabella Health Centre",
+   "Address": "Market Street, Marabella",
+   "Phone": "(868)-658-0470",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Maraval Health Centre",
+   "Address": "Corner of Saddle Road & Morne Coco Road, Maraval",
+   "Phone": "(868)-629-2043",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Mason Hall Health Centre",
+   "Address": "Mason Hall",
+   "Phone": "(868) 635-1622",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Matelot Outreach Centre",
+   "Address": "Main Road, Matelot",
+   "Phone": "(868)-670-2428",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Matura Outreach Centre",
+   "Address": "Matura Main Road, Matura",
+   "Phone": "(868)-668-6276",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Mayaro District Health Facility",
+   "Address": "Pierreville, Mayaro",
+   "Phone": "(868)-630-1258",
+   "Type": "District Health Facility",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Moriah Health Centre",
+   "Address": "Moriah",
+   "Phone": "(868) 660-0092",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Moruga Health Centre",
+   "Address": "Lanse Mitan, Moruga",
+   "Phone": "(868)-656-7022",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Morvant Health Centre",
+   "Address": "Dos Santos Street, Morvant",
+   "Phone": "(868)-626-1044",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Mt. Hope Women's Hospital",
+   "Address": "Champs Fleurs",
+   "Phone": "(868)-662-7006",
+   "Type": "Hospital",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Mt. St. George Health Centre",
+   "Address": "Mt. St. George",
+   "Phone": "(868)-660-2119",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Oxford Street Health Centre",
+   "Address": "Corner of Observatory Street & Oxford Street, Port-of-Spain",
+   "Phone": "(868)-623-6741",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Palo Seco Health Centre",
+   "Address": "Main Road, Palo Seco",
+   "Phone": "(868)-649-4482",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Parlatuvier Health Centre",
+   "Address": "Parlatuvier",
+   "Phone": "(868)-639-5063",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Pembroke Health Centre",
+   "Address": "Pembroke",
+   "Phone": "(868) 660-4100",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Pembroke Street Health Centre",
+   "Address": "Pembroke Street, Port-of-Spain",
+   "Phone": "",
+   "Type": "District Health Facility",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Penal Health Centre",
+   "Address": "Southern Main Road, Penal",
+   "Phone": "(868)-647-4417",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Penal Rock Road Health Centre",
+   "Address": "4 1/2 mile marker, Penal Rock Road",
+   "Phone": "(868)-647-0892",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Petit Valley Health Centre",
+   "Address": "Corner of Simeon Road & Morne Coco Road, Petit Valley",
+   "Phone": "(868)-637-3284",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Pleasantville Health Centre",
+   "Address": "Chaconia Avenue and Prince Albert Streets, Pleasantville",
+   "Phone": "(868)-653-0521",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Plymouth Health Centre",
+   "Address": "Plymomuth",
+   "Phone": "(868)-639-2982",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Point Fortin Area Hospital",
+   "Address": "Volunteer Road, Mahaica, Point Fortin",
+   "Phone": "(868)-648-3234",
+   "Type": "Hospital",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Point Fortin Health Centre",
+   "Address": "Techier Main Road, Point Fortin",
+   "Phone": "(868)-648-2329",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Port-of-Spain General Hospital",
+   "Address": "Upper Charlotte Street, Port-of-Spain",
+   "Phone": "(868)-623-2951",
+   "Type": "Hospital",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Princes Town Health Centre",
+   "Address": "Circular Road, Princes Town",
+   "Phone": "(868) 655-8433, (868) 225-HEAL",
+   "Type": "District Health Facility",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Rio Claro Health Centre",
+   "Address": "Corner De Verteuil and Dougdeen Streets, Rio Claro",
+   "Phone": "(868)-644-2236",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Rochard Douglas Health Centre",
+   "Address": "Rochard Douglas Road",
+   "Phone": "(868)-654-1641",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Roxborough Health Centre",
+   "Address": "Roxborough",
+   "Phone": "(868) 660-4620",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Roy Joseph Health Centre",
+   "Address": "Gomez Street, San Fernando",
+   "Phone": "(868)-652-0806",
+   "Type": "District Health Facility",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "San Fernando General/Teaching Hospital",
+   "Address": "Independence Avenue, San Fernando",
+   "Phone": "(868) 652-3581, (868) 225-HEAL",
+   "Type": "Hospital",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "San Juan Health Centre",
+   "Address": "Real Street, San Juan",
+   "Phone": "(868)-638-3618/ 675-1535",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "San Rafael Health Centre",
+   "Address": "Talparo Main Road, San Rafael",
+   "Phone": "(868)-643-8645",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "San Souci Outreach Centre",
+   "Address": "Main Road San Souci",
+   "Phone": "(868)-670-2382",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Sangre Grande Health Centre",
+   "Address": "Brierly Sreet and River Street, Sangre Grande",
+   "Phone": "(868)-668-2509",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Sangre Grande Hospital",
+   "Address": "Ojoe Road, Sangre Grande",
+   "Phone": "668-2273 / 2221 / 2468 / 2577",
+   "Type": "Hospital",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Santa Cruz Health Centre",
+   "Address": "Saddle Road, San Juan",
+   "Phone": "(868)-676-7400/7067",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Scarborough General Hospital",
+   "Address": "Connector Road, Signal Hill, Tobago, Trinidad and Tobago",
+   "Phone": "(868)-660-4744",
+   "Type": "Hospital",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Scarborough Health Centre",
+   "Address": "Scarborough",
+   "Phone": "(868)-639-2612",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "Siparia District Health Facility",
+   "Address": "High Street, Siparia",
+   "Phone": "(868) 649 -1136 / 0691",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "South Oropouche Health Centre",
+   "Address": "Main Road, Oropouche",
+   "Phone": "(868)-677-7305",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Speyside Health Centre",
+   "Address": "Speyside",
+   "Phone": "(868)-660-4044",
+   "Type": "Health Centre",
+   "Region": "TRHA"
+ },
+ {
+   "Facility": "St. Ann's Hospital (Mental Health)",
+   "Address": "St. Ann's",
+   "Phone": "(868)-624-1151",
+   "Type": "Hospital",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "St. Helena Health Centre",
+   "Address": "North Bank Road, St. Helena",
+   "Phone": "(868)-669-1183, (868)-669-7027",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "St. James District Health Facility",
+   "Address": "#112 Western Main Road, St. James",
+   "Phone": "(868)-622-1142",
+   "Type": "District Health Facility",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "St. Joseph Enhanced Health Centre",
+   "Address": "Uriah Butler Highway, Champ Fleurs",
+   "Phone": "(868)-663-3419",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Ste. Madeleine Health Centre",
+   "Address": "Manahambre Road, Ste. Madeleine",
+   "Phone": "(868)-653-2303",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Success Lavantille Health Centre",
+   "Address": "Espinet Street, Laventille",
+   "Phone": "(868)-623-6434",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Tabaquite Health Centre",
+   "Address": "Main Road, Tabaquite",
+   "Phone": "(868)-636-2989",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Tableland Health Centre",
+   "Address": "Naparima/Mayaro Road, George Village",
+   "Phone": "(868)-656-3500",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Tacarigua Extended Care Facility",
+   "Address": "Upper El Dorado Road, Tunapuna",
+   "Phone": "(868)-662-4617",
+   "Type": "District Health Facility",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Tacarigua Health Centre",
+   "Address": "El Dorado Road, Tunapuna",
+   "Phone": "(868)-662-4819",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Talparo Health Centre",
+   "Address": "Talparo Community Centre, Talparo Main Road, Talparo",
+   "Phone": "(868)-643-7309",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Toco Health Centre & 24 hours A&E",
+   "Address": "Paria Main Road, Toco",
+   "Phone": "(868)-670-8277",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Todd's Road Health Centre",
+   "Address": "Flecher Road, Todd's Road",
+   "Phone": "(868)-671-5176",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Tunapuna Health Centre",
+   "Address": "",
+   "Phone": "(868)-663-4617",
+   "Type": "Health Centre",
+   "Region": "NCRHA"
+ },
+ {
+   "Facility": "Upper Lavantille Health Centre",
+   "Address": "St. Barbs Road, Laventille",
+   "Phone": "(868)-624-4438",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ },
+ {
+   "Facility": "Valencia Outreach Centre",
+   "Address": "Alexander Street, Valencia",
+   "Phone": "(868)-667-8197",
+   "Type": "Health Centre",
+   "Region": "ERHA"
+ },
+ {
+   "Facility": "Williamsville Health Centre",
+   "Address": "Main Road, Williamsville",
+   "Phone": "(868)-655-1751",
+   "Type": "Health Centre",
+   "Region": "SWRHA"
+ },
+ {
+   "Facility": "Woodbrook Health Centre",
+   "Address": "92A Tragarete Road, Port of Spain",
+   "Phone": "(868)-622-2045",
+   "Type": "Health Centre",
+   "Region": "NWRHA"
+ }
+]

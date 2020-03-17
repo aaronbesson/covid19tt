@@ -1,0 +1,37 @@
+[
+    {
+      "emoji": "👏",
+      "title": "Wash your hands properly with soap and water for 20 seconds",
+      "description": "Use an alcohol-based hand sanitizer if water and soap are not available."
+    },
+    {
+      "emoji": "🤧",
+      "title": "Cover your nose and mouth with a tissue when you cough or sneeze",
+      "description": "Dispose of tissue immediately after using. Cough and sneeze into the crook of your elbow if you do not have a tissue"
+    },
+    {
+      "emoji": "❌🤭❌",
+      "title": "Avoid touching your face",
+      "description": "Don't touch your eyes, nose or mouth wiht your hands to avoid getting infected."
+    },
+    {
+      "emoji": "❌🤝❌",
+      "title": "Avoid Shaking Hands",
+      "description": "Avoid shaking hands, kissing people hello and unnecessary contact with people in public."
+    },
+    {
+      "emoji": "😷",
+      "title": "Stay home if you are ill",
+      "description": "Avoid close contact with people who have flu-like symptoms or if you are feeling sick."
+    },
+    {
+      "emoji": "📱💻",
+      "title": "Clean your mobile devices",
+      "description": "Clean your mobile devices using a wipe with 70% alcohol at least four (4) times daily."
+    },
+    {
+      "emoji": "❌👥❌",
+      "title": "No more than 25 people",
+      "description": "Do not gather in groups of more than 25 people. Avoid unnecessary contact."
+    }
+]
