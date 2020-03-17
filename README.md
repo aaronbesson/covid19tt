@@ -6,6 +6,7 @@ A simple applicaiton to help users find health care centers and hospitals nearby
 * Hospital Map
 * User Questionnare
 * COVID-19 Hotline
+* Push Notifications
 
 ![COVD-19 APP DEMO](https://github.com/aaronbesson/covid19tt/blob/master/example.gif)
 
