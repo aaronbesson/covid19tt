@@ -7,7 +7,7 @@ A simple applicaiton to help users find health care centers and hospitals nearby
 * User Questionnare
 * COVID-19 Hotline
 
-Run
+## Run
 
 yarn of npm install
 
@@ -21,10 +21,10 @@ To setup and configure your own push notifications:
 
 https://dev.to/josedonato/minimalist-approach-to-send-push-notifications-with-expo-4m7h
 
-Build for Android
+### Build for Android
 
 expo build:android -t app-bundle  
 
-Build for IOS
+### Build for IOS
 
 expo build:ios
