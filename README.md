@@ -24,6 +24,11 @@ To setup and configure your own push notifications:
 
 https://dev.to/josedonato/minimalist-approach-to-send-push-notifications-with-expo-4m7h
 
+JSON Files
+
+https://github.com/aaronbesson/covid19tt/tree/master/examplejsonfiles
+
+
 ### Build for Android
 
 expo build:android -t app-bundle  
