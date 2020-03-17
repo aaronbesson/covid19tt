@@ -9,25 +9,26 @@ export default function HomeScreen({navigation}) {
   return (
     <View style={styles.container}>
 
-<ScrollableTabView style={{ width: '100%', height: '100%' }} locked>
+<ScrollableTabView
+style={{ width: '100%', height: '100%' }} locked>
 
 <View tabLabel="Health Facilities" style={{flex: 1}}>
         <HealthCenters />
-        <Text style={{fontSize: 10, textAlign: 'center', padding: 4}}>Tap a contact to call</Text>
+        <Text style={styles.finePrint}>Tap a contact to call</Text>
         </View>
-
-
-        <View tabLabel="Doctors" style={{flex: 1, justifyContent: 'space-between', paddingBottom: 80}}>
+        <View tabLabel="Doctors" style={{
+          flex: 1,
+          justifyContent: 'space-between',
+          paddingBottom: 80
+          }}>
         <Doctors />
         </View>
         <View tabLabel="Hospital Map" style={{flex: 1}}>
         <WebView
         source={{ uri: 'https://www.google.com/maps/search/hospitals' }}
-        style={{ width: '100%', height: '100%' }}
+        style={{ width: '100%', height: '100%', marginTop: -64 }}
       />
         </View>
- 
-        
       </ScrollableTabView>
           
     </View>
@@ -45,22 +46,5 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     flex: 1
   },
-  yes: {
-    width: '25%',
-    margin: 20,
-    padding: 12,
-    alignItems: 'center',
-    alignContent: 'center',
-    justifyContent: 'center',
-    backgroundColor: 'gold'
-  },
-  no: {
-    width: '25%',
-    margin: 20,
-    padding: 12,
-    alignItems: 'center',
-    alignContent: 'center',
-    justifyContent: 'center',
-    backgroundColor: 'whitesmoke'
-  }
+  finePrint: {fontSize: 10, textAlign: 'center', padding: 4},
 });

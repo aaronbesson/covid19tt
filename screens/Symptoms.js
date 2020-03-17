@@ -23,28 +23,25 @@ export default class Symptoms extends React.Component {
   };
 
   render() {
-    const score = 
-            this.state.feverScore +
-            this.state.tiredScore +
-            this.state.coughScore +
-            this.state.achesScore +
-            this.state.throatScore +
-            this.state.noseScore +
-            this.state.diarrhoeaScore
+    const score = (this.state.feverScore +
+    this.state.tiredScore +
+    this.state.coughScore +
+    this.state.achesScore +
+    this.state.throatScore +
+    this.state.noseScore +
+    this.state.diarrhoeaScore)
+
     return (
       <ScrollView style={{flex: 1, backgroundColor: 'white'}}>
-<View  style={styles.container}>
-          <Text style={{fontSize: 72}}>{this.state.fever === false ? '😦' : '🤒'}</Text>
-          <Text style={{color: 'black', fontSize: 24}}>Oh no!</Text>
+      <View style={styles.container}>
+          <Text style={{fontSize: 72}}>
+            {this.state.fever === false ? '😦' : '🤒'}
+          </Text>
+          <Text style={{color: 'black', fontSize: 24}}>
+            Oh no!
+          </Text>
           <Text
-            style={{
-              backgroundColor: 'transparent',
-              fontSize: 28,
-              color: 'black',
-              fontWeight: 'bold',
-              textAlign: 'center',
-              marginVertical: 20
-            }}>
+            style={styles.question}>
             What symptoms do you have?
           </Text>
 
@@ -114,12 +111,15 @@ export default class Symptoms extends React.Component {
           />
 
           <View style={{flexDirection: 'row'}}>
-          <TouchableOpacity style={styles.no} onPress={() => this.props.navigation.navigate('Home')}>
+          <TouchableOpacity style={styles.no}
+          onPress={() => this.props.navigation.navigate('Home')}>
             <Text style={{fontSize: 24, color: 'white'}}>Reset</Text>
           </TouchableOpacity>
-          {score < 3 ? <TouchableOpacity style={styles.yes} onPress={() => this.props.navigation.navigate('Monitor')}>
+          {score < 3 ? <TouchableOpacity style={styles.yes}
+          onPress={() => score !== 0 && this.props.navigation.navigate('Monitor')}>
             <Text style={{color: 'black',fontSize: 24}}>Next</Text>
-          </TouchableOpacity> : <TouchableOpacity style={styles.yes} onPress={() => this.props.navigation.navigate('Travel')}>
+          </TouchableOpacity> : <TouchableOpacity style={styles.yes}
+          onPress={() => score !== 0 && this.props.navigation.navigate('Travel')}>
             <Text style={{color: 'black',fontSize: 24}}>Next</Text>
           </TouchableOpacity>}
           
@@ -142,6 +142,14 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: '#fff',
     alignItems: 'center'
+  },
+  question: {
+    backgroundColor: 'transparent',
+    fontSize: 28,
+    color: 'black',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginVertical: 20
   },
   yes: {
     width: '45%',

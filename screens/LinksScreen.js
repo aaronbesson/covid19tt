@@ -1,120 +1,68 @@
 import * as React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Dimensions, Linking } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
 import * as WebBrowser from 'expo-web-browser';
 import { RectButton, ScrollView } from 'react-native-gesture-handler';
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import ScrollableTabView from 'react-native-scrollable-tab-view';
 import { WebView } from 'react-native-webview';
-
+import axios from 'axios';
 
 const { width, height } = Dimensions.get('window')
 
-export default function LinksScreen() {
+export default class Count extends React.Component {
+  state = {
+    links: []
+  }
+
+  componentDidMount() {
+    axios.get(`https://covid19tt.netlify.com/links.json`)
+      .then(res => {
+        const links = res.data;
+        this.setState({ links });
+      })
+  }
+  render() {
   return (<View style={{flex: 1}}>
     <ScrollableTabView style={{ width: '100%', height: '100%' }} locked>
     
     <View tabLabel="Local Resources" style={{flex: 1}}>
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
 
-<Text style={{marginTop: 20, fontSize: 24, paddingHorizontal: 20, fontWeight: 'bold'}}>☎ Local Resources</Text>
+<Text style={styles.pageTitle}>☎ Local Resources</Text>
 
-<Text style={{marginVertical: 20, fontSize: 16, paddingHorizontal: 20}}>If you are experiencing flu-like symptoms and have recently travelled outside of Trinidad and Tobago, or have come into close contact with someone who has travelled internationally, please self-quarantine and call your nearest public health facility.</Text>
+<Text style={styles.copyText}>
+  If you are experiencing flu-like symptoms and have recently travelled outside of Trinidad and Tobago, or have come into close contact with someone who has travelled internationally, please self-quarantine and call your nearest public health facility.
+</Text>
 
-
+{this.state.links.map((links, id) => <View key={id} style={{marginBottom: 20}}>
       <OptionButton
-        icon="compass"
-        label="Ministry of Health T&T Website"
-        onPress={() => WebBrowser.openBrowserAsync('http://www.health.gov.tt/news/')}
+        icon={links.icon}
+        label={links.title}
+        onPress={() => WebBrowser.openBrowserAsync(links.link)}
       />
-
-      <OptionButton
-        icon="twitter"
-        label="Ministry of Health T&T Twitter"
-        onPress={() => WebBrowser.openBrowserAsync('https://twitter.com/MOH_TT')}
-      />
-
-      <OptionButton
-        icon="compass"
-        label="World Health Organization Website"
-        onPress={() => WebBrowser.openBrowserAsync('https://www.who.int/emergencies/diseases/novel-coronavirus-2019')}
-      />
-
-      <OptionButton
-        icon="twitter"
-        label="WHO Twitter"
-        onPress={() => WebBrowser.openBrowserAsync('https://twitter.com/WHO')}
-      />
-
-      <OptionButton
-        icon="compass"
-        label="Advice for the Public (WHO)"
-        onPress={() => WebBrowser.openBrowserAsync('https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public')}
-      />
-
-      <OptionButton
-        icon="compass"
-        label="Centers for Disease Control (CDC US)"
-        onPress={() => WebBrowser.openBrowserAsync('https://www.cdc.gov/coronavirus/2019-nCoV/index.html')}
-      />
-
-      <OptionButton
-        icon="newspaper"
-        label="News.Gov.TT"
-        onPress={() => WebBrowser.openBrowserAsync('http://www.news.gov.tt/features-and-analysis/health')}
-      />
-
-      <OptionButton
-        icon="newspaper"
-        label="Trinidad Express"
-        onPress={() => WebBrowser.openBrowserAsync('https://trinidadexpress.com')}
-      />
-
-      <OptionButton
-        icon="newspaper"
-        label="LoopTT"
-        onPress={() => WebBrowser.openBrowserAsync('https://looptt.com')}
-      />
-
-
-
-      <OptionButton
-        icon="youtube"
-        label="TV6"
-        onPress={() => WebBrowser.openBrowserAsync('https://www.tv6tnt.com')}
-      />  
-
-
-
+ </View>)}
 
     </ScrollView>
       </View>
 
-      <View tabLabel="Global Stats" style={{flex: 1}}>
+      {/* <View tabLabel="Global Stats" style={{flex: 1}}>
       <WebView
         source={{ uri: 'https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd' }}
         style={{ width: '100%', height: '100%' }}
       />
-      </View>
+      </View> */}
 
     </ScrollableTabView>
     
     <TouchableOpacity
     onPress={() => Linking.openURL(`tel:${18688779742}`)}
-    style={{
-      backgroundColor: 'gold',
-      width: width,
-      height: 48,
-      alignContent: 'center',
-      alignItems: 'center',
-      justifyContent: 'center',
-       flexDirection:'row',
-    }}>
+    style={styles.hotlineButton}>
       <MaterialCommunityIcons name="phone" size={24} color="#222" />
-      <Text style={{fontSize: 18, color: '#222', paddingLeft: 8, fontWeight: 'bold'}}>Call the COVID19 Hotline</Text>
+      <Text style={styles.hotline}>Call the COVID19 Hotline</Text>
     </TouchableOpacity>
     </View>
   );
+}
 }
 
 function OptionButton({ icon, label, onPress, isLastOption }) {
@@ -159,4 +107,16 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-start',
     marginTop: 1,
   },
+  pageTitle: {marginTop: 20, fontSize: 24, paddingHorizontal: 20, fontWeight: 'bold'},
+  copyText: {marginVertical: 20, fontSize: 16, paddingHorizontal: 20},
+  hotlineButton: {
+    backgroundColor: 'gold',
+    width: width,
+    height: 48,
+    alignContent: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+     flexDirection:'row',
+  },
+hotline: {fontSize: 18, color: '#222', paddingLeft: 8, fontWeight: 'bold'}
 });

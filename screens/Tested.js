@@ -8,29 +8,16 @@ const { width, height } = Dimensions.get('window')
 
 export default class Tested extends React.Component {
   state = {
-    fever: false,
-    tiredness: false,
-    cough: false,
-    aches: false,
-    sorethroat: false,
-    runnynose: false
   };
 
   render() {
     return (
 <View style={styles.container}>
           <Text style={{fontSize: 72}}>😷</Text>
-          <Text style={{color: 'black', fontSize: 24, textAlign: 'center'}}>You need to get tested for COVID-19. You should also self-quarantine for fourteen (14) days.</Text>
+          <Text style={{color: 'black', fontSize: 24, textAlign: 'center'}}>You should self-quarantine for fourteen (14) days.</Text>
           <Text
-            style={{
-              backgroundColor: 'transparent',
-              fontSize: 28,
-              color: 'black',
-              fontWeight: 'bold',
-              textAlign: 'center',
-              marginVertical: 20
-            }}>
-            Please contact a doctor, medical center or hospital to arrange getting tested for Coronavirus (Covid-19).
+            style={styles.instructions}>
+            Please contact a doctor, healthcenter or hospital to speak with a doctor.
           </Text>
 
           <View style={{flexDirection: 'row'}}>
@@ -74,6 +61,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     alignContent: 'center'
+  },
+  instructions: {
+    backgroundColor: 'transparent',
+    fontSize: 28,
+    color: 'black',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginVertical: 20
   },
   yes: {
     width: '100%',

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Image, Platform, StyleSheet, Text, TouchableOpacity, View, ScrollView } from 'react-native';
 
 
-export default class Travel extends React.Component {
+export default class Household extends React.Component {
   state = {
   };
 
@@ -10,20 +10,20 @@ export default class Travel extends React.Component {
     return (
       <View style={styles.container}>
       <Text style={{fontSize: 120}}>🤒</Text>
-      <Text style={{color: 'black', fontSize: 24}}>Ok. Tell me something...</Text>
+      <Text style={{color: 'black', fontSize: 24}}>One more question...</Text>
       <Text
       style={styles.question}>
-      Have you been overseas in the last month?
+      Have you been in contact with anyone who has been sick or recently travelled overseas?
       </Text>
 
       <View style={{flexDirection: 'row'}}>
       <TouchableOpacity style={styles.no}
-      onPress={() => this.props.navigation.navigate('Household')}>
+      onPress={() => this.props.navigation.navigate('Quarantine')}>
       <Text style={{fontSize: 24, color: 'white'}}>No</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.yes}
-      onPress={() => this.props.navigation.navigate('TravelLocation')}>
+      onPress={() => this.props.navigation.navigate('Tested')}>
       <Text style={{color: 'black',fontSize: 24}}>Yes</Text>
       </TouchableOpacity>
       </View>
@@ -32,7 +32,7 @@ export default class Travel extends React.Component {
   }
 }
 
-Travel.navigationOptions = {
+Household.navigationOptions = {
   header: null,
 };
 

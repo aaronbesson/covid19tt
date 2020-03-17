@@ -1,39 +1,36 @@
 import * as React from 'react';
 import { Image, Platform, StyleSheet, Text, ScrollView, View } from 'react-native';
+import axios from 'axios';
 
 
+export default class Safety extends React.Component {
+  state = {
+    tips: []
+  }
 
-export default function Safety({navigation}) {
-  return (<ScrollView>
+  componentDidMount() {
+    axios.get(`https://covid19tt.netlify.com/safety.json`)
+      .then(res => {
+        const tips = res.data;
+        this.setState({ tips });
+      })
+  }
+
+  render() {
+    return (<ScrollView bounces={false}>
     <View style={styles.container}>
-  <View>
-<Text style={{fontSize: 80, textAlign: 'center'}}>👏</Text>
-  <Text style={[styles.center, styles.h3]}>Wash your hands properly with soap and water for 20 seconds</Text>
-  <Text style={[styles.center, styles.poptext]}>Use an alcohol-based hand sanitizer if water and soap are not available  </Text></View>
 
-<View>
-<Text style={{fontSize: 80, textAlign: 'center'}}>🤧</Text>
-  <Text style={[styles.center, styles.h3]}>Cover your nose and mouth with a tissue when you cough or sneeze</Text>
-  <Text style={[styles.center, styles.poptext]}>Dispose of tissue immediately after using. Cough and sneeze into the crook of your elbow if you do not have a tissue</Text></View>
-
-<View>
-<Text style={{fontSize: 80, textAlign: 'center'}}>🤭</Text>
-  <Text style={[styles.center, styles.h3]}>Avoid touching your face</Text>
-  <Text style={[styles.center, styles.poptext]}>Don't touch your eyes, nose or mouth wiht your hands to avoid getting infected.</Text></View>
-
-  <View>
-  <Text style={{fontSize: 80, textAlign: 'center'}}>❌🤝❌</Text>
-  <Text style={[styles.center, styles.h3, {marginTop: 30}]}>Avoid Shaking Hands</Text>
-  <Text style={[styles.center, styles.poptext]}>Avoid shaking hands, kissing people hello and unnecessary contact with people in public.</Text></View>
-
-<View>
-<Text style={{fontSize: 80, textAlign: 'center'}}>😷</Text>
-  <Text style={[styles.center, styles.h3]}>Stay home if you are ill</Text>
-  <Text style={[styles.center, styles.poptext]}>Avoid close contact with people who have flu-like symptoms or if you are feeling sick.</Text></View>
-
+    {this.state.tips.map((tips, id) => <View key={id} style={{marginBottom: 20}}>
+  <Text style={styles.bigEmoji}>{tips.emoji}</Text>
+  <Text style={[styles.center, styles.h3]}>{tips.title}</Text>
+  <Text style={[styles.center, styles.poptext]}>{tips.description}
+  </Text>
+  </View>
+    )}
+    
     </View>
     </ScrollView>);
-}
+}}
 
 Safety.navigationOptions = {
   header: null,
@@ -66,6 +63,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: 'whitesmoke'
   },
+  bigEmoji: {fontSize: 80, textAlign: 'center'},
   h3: {
   fontSize: 24,
   fontWeight: 'bold'

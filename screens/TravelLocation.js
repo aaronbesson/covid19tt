@@ -26,29 +26,26 @@ export default class TravelLocation extends React.Component {
   };
 
   render() {
-    const score = 
-            this.state.asiaValue +
-            this.state.euroValue +
-            this.state.middleValue +
-            this.state.usaValue +
-            this.state.africaValue +
-            this.state.austValue +
-            this.state.southValue +
-            this.state.caribValue
+    const score = (
+    this.state.asiaValue +
+    this.state.euroValue +
+    this.state.middleValue +
+    this.state.usaValue +
+    this.state.africaValue +
+    this.state.austValue +
+    this.state.southValue +
+    this.state.caribValue )
     return (
       <ScrollView style={{flex: 1, backgroundColor: 'white'}}>
-<View  style={styles.container}>
-          <Text style={{fontSize: 72}}>{score < 5 ? '🤒' : '😷'}</Text>
-          <Text style={{color: 'black', fontSize: 24, textAlign: 'center'}}>Where did you go?</Text>
+          <View style={styles.container}>
+          <Text style={{fontSize: 72}}>
+            {score < 5 ? '🤒' : '😷'}
+          </Text>
+          <Text style={{color: 'black', fontSize: 24, textAlign: 'center'}}>
+            Where did you go?
+          </Text>
           <Text
-            style={{
-              backgroundColor: 'transparent',
-              fontSize: 28,
-              color: 'black',
-              fontWeight: 'bold',
-              textAlign: 'center',
-              marginVertical: 20
-            }}>
+            style={styles.question}>
             Where have you been in the last 30 days?
           </Text>
           {/* <Text>Score: {score}</Text> */}
@@ -61,7 +58,6 @@ export default class TravelLocation extends React.Component {
           checked={this.state.africa}
           onPress={() => this.setState({ africa: true, africaValue: 3 })}
           />
-
           
           <CheckBox
           containerStyle={{width: '90%'}}
@@ -126,21 +122,21 @@ export default class TravelLocation extends React.Component {
           onPress={() => this.setState({ usa: true, usaValue: 2 })}
           />
 
-
-<View style={{flexDirection: 'row'}}>
+          <View style={{flexDirection: 'row'}}>
           
-
           <TouchableOpacity style={styles.no} onPress={() => this.props.navigation.navigate('Travel')}>
             <Text style={{fontSize: 24, color: 'white'}}>Reset</Text>
           </TouchableOpacity>
 
-            {score <= 2 && <TouchableOpacity style={styles.yes} onPress={() => this.props.navigation.navigate('Quarantine')}>
-            <Text style={{color: 'black',fontSize: 24}}>Next</Text>
+          
+          {score <= 2 && <TouchableOpacity style={styles.yes} onPress={() => score !== 0 && this.props.navigation.navigate('Quarantine')}>
+          <Text style={{color: 'black',fontSize: 24}}>Next</Text>
           </TouchableOpacity>}
 
           {score >= 3 && <TouchableOpacity style={styles.yes} onPress={() => this.props.navigation.navigate('Tested')}>
-            <Text style={{color: 'black',fontSize: 24}}>Next</Text>
+          <Text style={{color: 'black',fontSize: 24}}>Next</Text>
           </TouchableOpacity>}
+
           </View>
           </View>
     </ScrollView>
@@ -160,6 +156,14 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: '#fff',
     alignItems: 'center'
+  },
+  question: {
+    backgroundColor: 'transparent',
+    fontSize: 28,
+    color: 'black',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginVertical: 20
   },
   yes: {
     width: '45%',

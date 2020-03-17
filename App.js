@@ -17,6 +17,7 @@ import Monitor from './screens/Monitor';
 import { TransitionPresets } from '@react-navigation/stack';
 import { Notifications } from 'expo';
 import * as Permissions from 'expo-permissions';
+import Household from './screens/Household';
 
 const PUSH_ENDPOINT = 'https://easy-soup.glitch.me/token';
 
@@ -105,6 +106,7 @@ export default function App(props) {
             <Stack.Screen name="Quarantine" component={Quarantine} options={{ headerLeft: () => ( <View /> ) }} />
             <Stack.Screen name="Tested" component={Tested} options={{ headerLeft: () => ( <View /> ) }} />
             <Stack.Screen name="Monitor" component={Monitor} options={{ headerLeft: () => ( <View /> ) }} />
+            <Stack.Screen name="Household" component={Household} options={{ headerLeft: () => ( <View /> ) }} />
           </Stack.Navigator>
           <SafeAreaView style={{ flex: 0, backgroundColor: 'white' }} />
         </NavigationContainer>

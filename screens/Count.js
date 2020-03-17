@@ -36,9 +36,9 @@ export default class Count extends React.Component {
         this.setState({ isModalVisible: !this.state.isModalVisible });
       };
     render() {
-    return (<View style={{flex: 1}}>
+    return (<View style={{height: 48}}>
       <Modal isVisible={this.state.isModalVisible}>
-          <View style={{ flex: 1 }}>
+          <View>
             <TouchableOpacity onPress={this.toggleModal}>
             <View style={{ width: width - 40, height: width, backgroundColor: 'white', marginTop: 80,
           paddingHorizontal: 20, borderRadius: 13 }}>
@@ -53,7 +53,7 @@ export default class Count extends React.Component {
               
             <View style={{flexDirection: 'row', justifyContent: 'space-evenly'}}>
             <View style={{width: '80%'}}>
-            <Text style={{padding: 10, fontSize: 18, fontWeight: 'bold'}}>🇹🇹 Confirmed Cases:</Text>
+            <Text style={{padding: 10, fontSize: 18, fontWeight: 'bold'}}>🇹🇹 Total Confirmed Cases:</Text>
             </View>
             <View style={{width: '20%'}}>
             <Text style={{padding: 10, fontSize: 18, textAlign: 'right'}}>{posts.cases}</Text>

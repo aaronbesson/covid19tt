@@ -51,7 +51,7 @@ export default function BottomTabNavigator({ navigation, route }) {
           tabBarLabel: ({ focused }) =>  <Text style={{fontSize: 13,
             color: focused ? Colors.tabIconSelected : Colors.tabIconDefault
           }}>Safety Tips</Text>,
-          tabBarIcon: ({ focused }) => <MaterialCommunityIcons name="hand" size={28} color={focused ? Colors.tabIconSelected : Colors.tabIconDefault} style={{paddingTop: 6}} />,
+          tabBarIcon: ({ focused }) => <MaterialCommunityIcons name="alert-circle-outline" size={28} color={focused ? Colors.tabIconSelected : Colors.tabIconDefault} style={{paddingTop: 6}} />,
         }}
       />
 
