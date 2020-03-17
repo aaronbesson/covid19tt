@@ -12,3 +12,10 @@ Run
 yarn of npm install
 
 expo start
+
+You can test push notification when running on your mobile device (DO NOT USE WITH LIVE APP)
+
+https://expo-notifications-tool.now.sh
+
+To setup and configure your own push notifications:
+https://dev.to/josedonato/minimalist-approach-to-send-push-notifications-with-expo-4m7h
