@@ -9,7 +9,7 @@ A simple applicaiton to help users find health care centers and hospitals nearby
 
 ## Run
 
-yarn of npm install
+yarn (or npm install)
 
 expo start
 
