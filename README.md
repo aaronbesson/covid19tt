@@ -6,3 +6,9 @@ A simple applicaiton to help users find health care centers and hospitals nearby
 * Hospital Map
 * User Questionnare
 * COVID-19 Hotline
+
+Run
+
+yarn of npm install
+
+expo start
